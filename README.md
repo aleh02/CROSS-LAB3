@@ -142,22 +142,24 @@ java -cp out client.CrossClient
 ## 🧪 Example Interaction (simplified)
 NEW_ORDER LIMIT BUY 45000 0.5
 
-Server:
 
+### Server:
+
+```bash
 [INFO] Received BUY LIMIT 0.5 BTC @ 45000$
 
 [INFO] Added to OrderBook (BID)
+```
 
-
-Matching Engine:
-
+### Matching Engine:
+```bash
 [TRADE] BUY 0.3 BTC matched @ 44900$ with SELL order #18
+```
 
-
-Server → Client (UDP):
-
+### Server → Client (UDP):
+```bash
 TRADE_EXECUTED order=42 filled=0.3 price=44900
-
+```
 ---
 
 ## 🧠 Core Concepts Demonstrated
