@@ -172,8 +172,9 @@ java -cp out client.CrossClient
 ---
 
 ## 🧪 Example Interaction (simplified)
+```bash
 NEW_ORDER LIMIT BUY 45000 0.5
-
+```
 
 ### Server:
 
