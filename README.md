@@ -145,6 +145,7 @@ NEW_ORDER LIMIT BUY 45000 0.5
 Server:
 
 [INFO] Received BUY LIMIT 0.5 BTC @ 45000$
+
 [INFO] Added to OrderBook (BID)
 
 
