@@ -198,7 +198,7 @@ TRADE_EXECUTED order=42 filled=0.3 price=44900
 
 ---
 
-##👤 Author
+## 👤 Author
 
 Alessandro Han
 
